@@ -39,7 +39,6 @@ public class FirstPersonController : MonoBehaviour
         moveInputDeadZone = Mathf.Pow(Screen.height / moveInputDeadZone, 2);
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Handles input
